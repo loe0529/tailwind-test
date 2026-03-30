@@ -1,12 +1,13 @@
-# GitHub Pages: 저장소 Settings → Pages → Source 를
-# "Deploy from a branch" 로 두고
-#   Branch: gh-pages   /    Folder: / (root)
-# ⚠️ main 브랜치나 / (root)만 선택하면 소스 index.html이 올라가 빈 화면입니다.
+# Pages 설정: Source = Deploy from a branch → Branch: main → Folder: /docs
+# docs/ 에 Vite 빌드(dist)만 넣고, 루트 소스 index.html 은 Pages에 쓰이지 않음.
+# paths-ignore 로 docs/만 바뀌는 커밋(배포 봇)은 다시 빌드하지 않음.
 name: Deploy GitHub Pages
 
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
 
 permissions:
   contents: write
@@ -20,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
@@ -33,9 +36,11 @@ jobs:
           GITHUB_PAGES: 'true'
         run: npm run build
 
-      - name: Push dist to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy dist → main/docs
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+          branch: main
+          folder: dist
+          target-folder: docs
+          clean: true
+          commit-message: 'chore: deploy GitHub Pages [skip ci]'
