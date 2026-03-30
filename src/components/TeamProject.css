@@ -1,0 +1,202 @@
+.desktop-section-teamproject {
+  width: 100%;
+  height: var(--height-section-teamproject);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-image {
+  width: var(--width-container-inner);
+  height: 807px;
+  margin: 0 auto;
+  padding-top: var(--padding-top-teamproject);
+  position: relative;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-image-girl {
+  position: absolute;
+  left: 479.5px;
+  top: 16px;
+  width: var(--width-teamproject-img-girl);
+  height: 775px;
+  object-fit: contain;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-image-sun {
+  position: absolute;
+  left: 1108px;
+  top: 0;
+  width: var(--width-teamproject-sun);
+  height: 194px;
+  object-fit: contain;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-box {
+  width: var(--width-container-inner);
+  height: 2412px;
+  margin: 80px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-teamproject-box);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-title-box {
+  width: var(--width-small-title-box);
+  height: 481px;
+  margin: 0 auto;
+  padding-top: var(--padding-vertical-small-title-box);
+  background: var(--color-black);
+  border-radius: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-small-title-box);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-main-title {
+  margin: 0;
+  width: var(--width-small-title-box);
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-small-main-title);
+  line-height: 127px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-sub-box {
+  width: 457px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-small-sub-box);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-sub-title {
+  margin: 0;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-small-sub-tilte);
+  line-height: 38.4px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-sub-text {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-small-sub-text);
+  line-height: 19.8px;
+  letter-spacing: -0.54px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-list {
+  width: var(--width-small-title-box);
+  height: 481px;
+  margin: 0 auto;
+  border: 1px solid var(--color-black);
+  border-radius: 20px;
+  padding: var(--padding-vertical-teamproject-list) var(--padding-horizontal-teamproject-list);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-teamproject-list);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-left-box {
+  width: var(--width-teamproject-left-box);
+  height: 358px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-num-title {
+  margin: 0;
+  font-family: var(--font-family-martian-mono);
+  font-size: var(--font-num-title);
+  line-height: 120px;
+  font-weight: 400;
+  color: var(--color-accent-main);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-text-box {
+  width: var(--width-teamproject-left-box-text-box);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-teamproject-left-box-text-box);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-title-box {
+  width: 515px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-project-name {
+  margin: 0;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-project-name);
+  line-height: 51.2px;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  color: var(--color-black);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-big-caption {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-big-caption);
+  line-height: 21.942px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  color: var(--color-black);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-desc {
+  width: var(--width-teamproject-left-box-text-box);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-en-text {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-en-text);
+  line-height: 26.4px;
+  letter-spacing: -0.72px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-kr-text {
+  margin: 15px 0 0;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-kr-text);
+  line-height: 19.8px;
+  letter-spacing: -0.54px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-small-caption {
+  margin: 16px 0 0;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-small-caption);
+  line-height: 19.504px;
+  letter-spacing: -0.8px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-list-image-box {
+  width: var(--width-teamproject-right-box);
+  height: 367px;
+}
+
+.desktop-section-teamproject .desktop-section-teamproject-list-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}

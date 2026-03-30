@@ -1,0 +1,104 @@
+.desktop-section-contact {
+  width: var(--width-contact);
+  height: var(--height-section-contact);
+  background: var(--color-black);
+  padding-top: var(--padding-top-contact);
+  padding-bottom: var(--padding-bottom-contact);
+}
+
+.desktop-section-contact .desktop-section-contact-inner {
+  width: var(--width-contact-inner);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desktop-section-contact .desktop-section-contact-main-title-box {
+  width: 1157px;
+  height: 245px;
+  position: relative;
+}
+
+.desktop-section-contact .desktop-section-contact-main-title {
+  margin: 0;
+  font-family: var(--font-family-martian-mono);
+  font-size: var(--font-section-main-title);
+  line-height: 245px;
+  letter-spacing: -7.35px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.desktop-section-contact .desktop-section-contact-deco-title-box {
+  position: absolute;
+  left: 837px;
+  top: -98px;
+  width: 233px;
+  height: 110px;
+  background: var(--color-accent-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(15deg);
+}
+
+.desktop-section-contact .desktop-section-contact-deco-title-text {
+  margin: 0;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-deco-title);
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #fff5f5;
+}
+
+.desktop-section-contact .desktop-section-contact-text-box {
+  width: 1740px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.desktop-section-contact .desktop-section-contact-sub-title {
+  margin: 0;
+  font-family: var(--font-family-pp-editorial-new);
+  font-style: italic;
+  font-size: 60px;
+  line-height: 76.8px;
+  font-weight: 400;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.desktop-section-contact .desktop-section-contact-sub-text {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  line-height: 21.942px;
+  letter-spacing: -0.54px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.desktop-section-contact .desktop-section-contact-tel-box {
+  width: 771px;
+  height: 160px;
+  margin-top: 80px;
+  background: var(--color-accent-bright);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-section-contact .desktop-section-contact-tel-text {
+  margin: 0;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: 100px;
+  line-height: var(--line-height-contact-tel);
+  font-weight: 400;
+  color: var(--color-black);
+}
+

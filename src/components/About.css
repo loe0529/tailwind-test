@@ -1,0 +1,156 @@
+.desktop-section-about {
+  width: 100%;
+  height: var(--height-section-about);
+}
+
+.desktop-section-about .desktop-section-about-inner {
+  width: var(--width-container-inner);
+  height: 773px;
+  margin: 0 auto;
+  padding-top: var(--padding-top-about);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-about-inner);
+}
+
+.desktop-section-about .desktop-section-about-main-title {
+  width: 432px;
+  height: 245px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.desktop-section-about .desktop-section-about-main-title-text {
+  margin: 0;
+  font-family: var(--font-family-martian-mono);
+  font-size: var(--font-section-main-title);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -7.35px;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.desktop-section-about .desktop-section-about-deco-title {
+  position: absolute;
+  top: -92.64px;
+  left: -109px;
+  width: 335px;
+  height: 110px;
+  background: var(--color-accent-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-top-deco-title) var(--padding-horizontal-deco-title)
+    var(--padding-bottom-deco-title);
+  transform: rotate(-11deg);
+}
+
+.desktop-section-about .desktop-section-about-deco-title-text {
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-deco-title);
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  color: #fff5f5;
+}
+
+.desktop-section-about .desktop-section-about-airplane {
+  position: absolute;
+  left: 365px;
+  top: 195px;
+  width: 133px;
+  height: 100px;
+}
+
+.desktop-section-about .desktop-section-about-main-text {
+  width: 100%;
+  height: 448px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-about-main-text);
+}
+
+.desktop-section-about .desktop-section-about-text-box {
+  width: 100%;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-section-text-box);
+  align-items: center;
+}
+
+.desktop-section-about .desktop-section-about-sub-title {
+  margin: 0;
+  width: 1003px;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-text-box-sub-title);
+  line-height: 76.8px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.desktop-section-about .desktop-section-about-sub-text {
+  margin: 0;
+  width: 539px;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-text-box-sub-text);
+  line-height: 21.942px;
+  font-weight: 400;
+  letter-spacing: -0.54px;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.desktop-section-about .desktop-section-about-bottom-box {
+  width: 925px;
+  height: 170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-about-bottom-box);
+}
+
+.desktop-section-about .desktop-section-about-edu-title {
+  margin: 0;
+  width: 198px;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-edu-title);
+  line-height: 35.84px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+  color: var(--color-black);
+}
+
+.desktop-section-about .desktop-section-about-edu-list {
+  margin: 0;
+  padding: 0;
+  width: 661px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-about-edu-text);
+}
+
+.desktop-section-about .desktop-section-about-edu-list li {
+  position: relative;
+  padding-left: 30px;
+  font-family: var(--font-family-pretendard);
+  font-size: var(--font-edu-list-text);
+  line-height: 26.404px;
+  font-weight: 400;
+  letter-spacing: -0.66px;
+  color: var(--color-black);
+}
+
+.desktop-section-about .desktop-section-about-edu-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 14px;
+  height: 15px;
+  background: url("/images/check-icon.svg") center / contain no-repeat;
+}

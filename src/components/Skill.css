@@ -1,0 +1,125 @@
+.desktop-section-skill {
+  width: 100%;
+  height: var(--height-section-skill);
+  padding: var(--padding-vertical-skill) 0;
+}
+
+.desktop-section-skill .desktop-section-skill-frame {
+  width: var(--width-container-inner);
+  height: var(--height-skill-frame);
+  margin: 0 auto;
+  position: relative;
+}
+
+.desktop-section-skill .desktop-section-skill-text {
+  position: absolute;
+  border: 1px solid var(--color-black);
+  border-radius: 80px;
+  background: var(--color-white);
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-skill-text);
+  line-height: var(--line-height-skill-text);
+  font-weight: 200;
+  letter-spacing: -3px;
+  color: var(--color-black);
+  padding: var(--padding-top-skill-text) var(--padding-horizontal-skill-text)
+    var(--padding-bottom-skill-text);
+  white-space: nowrap;
+}
+
+.desktop-section-skill .desktop-section-skill-icon1,
+.desktop-section-skill .desktop-section-skill-icon2,
+.desktop-section-skill .desktop-section-skill-icon3,
+.desktop-section-skill .desktop-section-skill-icon4,
+.desktop-section-skill .desktop-section-skill-icon5 {
+  position: absolute;
+}
+
+.desktop-section-skill .desktop-section-skill-icon1 {
+  left: 206px;
+  top: 283px;
+  width: 125px;
+  height: 124px;
+}
+
+.desktop-section-skill .desktop-section-skill-icon2 {
+  left: 1345px;
+  top: 459px;
+  width: 143px;
+  height: 129px;
+}
+
+.desktop-section-skill .desktop-section-skill-icon3 {
+  left: 309px;
+  top: 573px;
+  width: 144px;
+  height: 138px;
+}
+
+.desktop-section-skill .desktop-section-skill-icon4 {
+  left: 1318px;
+  top: 874px;
+  width: 151px;
+  height: 129px;
+}
+
+.desktop-section-skill .desktop-section-skill-icon5 {
+  left: 208px;
+  top: 1018px;
+  width: 101px;
+  height: 130px;
+}
+
+.desktop-section-skill .desktop-section-skill-text-1 {
+  left: 631px;
+  top: 0;
+  width: 458px;
+  height: 160px;
+}
+
+.desktop-section-skill .desktop-section-skill-text-2 {
+  left: 568px;
+  top: 180px;
+  width: 643px;
+  height: 160px;
+  transform: rotate(-4deg);
+}
+
+.desktop-section-skill .desktop-section-skill-text-3 {
+  left: 508px;
+  top: 363px;
+  width: 695px;
+  height: 160px;
+  transform: rotate(1deg);
+}
+
+.desktop-section-skill .desktop-section-skill-text-4 {
+  left: 610px;
+  top: 536px;
+  width: 489px;
+  height: 160px;
+  transform: rotate(-2deg);
+}
+
+.desktop-section-skill .desktop-section-skill-text-5 {
+  left: 486px;
+  top: 710px;
+  width: 675px;
+  height: 160px;
+}
+
+.desktop-section-skill .desktop-section-skill-text-6 {
+  left: 381px;
+  top: 899px;
+  width: 884px;
+  height: 160px;
+  transform: rotate(3deg);
+}
+
+.desktop-section-skill .desktop-section-skill-text-7 {
+  left: 500px;
+  top: 1110px;
+  width: 763px;
+  height: 160px;
+  transform: rotate(-4deg);
+}

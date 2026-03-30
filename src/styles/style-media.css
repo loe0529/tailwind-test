@@ -1,0 +1,1256 @@
+@media (max-width: 1024px) {
+  .desktop-page {
+    width: 100%;
+    max-width: none;
+  }
+
+  .desktop-header .desktop-header-inner {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .desktop-header .desktop-header-logo {
+    width: 210px;
+  }
+
+  .desktop-header .desktop-header-nav {
+    width: 480px;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+
+  .desktop-header .desktop-header-nav-link {
+    font-size: 16px;
+    line-height: 20.48px;
+  }
+
+  .desktop-section-hero {
+    height: 1276px;
+    padding-top: 24px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-inner {
+    width: 100%;
+  }
+
+  .desktop-section-hero .desktop-section-hero-main-title-box {
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 471px;
+    padding-top: 24px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-main-title {
+    font-size: 130px;
+    line-height: 149.5px;
+    letter-spacing: -9.1px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-text-box {
+    left: 0;
+    right: auto;
+    top: 503px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 108px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-text {
+    text-align: left;
+    font-size: 22px;
+    line-height: 26.818px;
+    letter-spacing: -0.44px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-image-box {
+    left: 278px;
+    top: 578px;
+    width: 664px;
+    height: 736px;
+  }
+
+  .desktop-section-about {
+    height: 1138px;
+  }
+
+  .desktop-section-about .desktop-section-about-inner {
+    width: 100%;
+    height: 658px;
+    padding-top: 320px;
+    gap: 64px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-title {
+    width: 432px;
+    height: 180px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-title-text {
+    font-size: 180px;
+    letter-spacing: -5.4px;
+  }
+
+  .desktop-section-about .desktop-section-about-deco-title {
+    top: -43.2px;
+    left: -39px;
+    width: 242px;
+    height: 90px;
+    padding: 20px 40px;
+    transform: rotate(-11deg);
+  }
+
+  .desktop-section-about .desktop-section-about-deco-title-text {
+    font-size: 50px;
+    letter-spacing: -1.5px;
+  }
+
+  .desktop-section-about .desktop-section-about-airplane {
+    left: 330px;
+    top: 150px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-text {
+    height: 414px;
+    gap: 72px;
+  }
+
+  .desktop-section-about .desktop-section-about-text-box {
+    height: 182px;
+  }
+
+  .desktop-section-about .desktop-section-about-sub-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 52px;
+    line-height: 66.56px;
+  }
+
+  .desktop-section-about .desktop-section-about-sub-text {
+    width: 479px;
+    font-size: 16px;
+    line-height: 19.504px;
+    letter-spacing: -0.48px;
+  }
+
+  .desktop-section-about .desktop-section-about-bottom-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 160px;
+    gap: 24px;
+  }
+
+  .desktop-section-about .desktop-section-about-edu-list li {
+    font-size: 20px;
+    line-height: 24.004px;
+    letter-spacing: -0.6px;
+  }
+
+  .desktop-section-skill {
+    height: 1225px;
+    padding: 0;
+  }
+
+  .desktop-section-skill .desktop-section-skill-frame {
+    width: 100%;
+    height: 1225px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text {
+    font-size: 70px;
+    line-height: 60px;
+    letter-spacing: -2.1px;
+    padding: 30px 70px 15px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon1 {
+    left: 117px;
+    top: 171px;
+    width: 105px;
+    height: 99px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon2 {
+    left: 771px;
+    top: 231px;
+    width: 116px;
+    height: 100px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon3 {
+    left: 87px;
+    top: 498px;
+    width: 117px;
+    height: 110px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon4 {
+    left: 812px;
+    top: 488px;
+    width: 99px;
+    height: 114px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon5 {
+    left: 91px;
+    top: 911px;
+    width: 101px;
+    height: 107px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-1 {
+    left: 325px;
+    top: 163px;
+    width: 331px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-2 {
+    left: 277px;
+    top: 301px;
+    width: 460px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-3 {
+    left: 226px;
+    top: 393px;
+    width: 497px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-4 {
+    left: 311px;
+    top: 533px;
+    width: 352px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-5 {
+    left: 329px;
+    top: 633px;
+    width: 483px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-6 {
+    left: 225px;
+    top: 727px;
+    width: 629px;
+    height: 105px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-7 {
+    left: 244px;
+    top: 916px;
+    width: 544px;
+    height: 105px;
+  }
+
+  .desktop-section-project {
+    height: 763px;
+  }
+
+  .desktop-section-project .desktop-section-project-inner {
+    width: 100%;
+    height: 523px;
+    padding-top: 240px;
+    gap: 64px;
+  }
+
+  .desktop-section-project .desktop-section-project-main-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 245px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .desktop-section-project .desktop-section-project-main-title-text {
+    margin-top: 32.5px;
+    font-size: 180px;
+    letter-spacing: -5.4px;
+  }
+
+  .desktop-section-project .desktop-section-project-deco-title {
+    left: 112.5px;
+    top: -45.38px;
+    width: 299px;
+    height: 90px;
+  }
+
+  .desktop-section-project .desktop-section-project-deco-title-text {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -1.5px;
+  }
+
+  .desktop-section-project .desktop-section-project-text-box {
+    height: 182px;
+  }
+
+  .desktop-section-project .desktop-section-project-sub-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 52px;
+    line-height: 66.56px;
+  }
+
+  .desktop-section-project .desktop-section-project-sub-text {
+    width: 356px;
+    font-size: 16px;
+    line-height: 19.504px;
+    letter-spacing: -0.48px;
+  }
+
+  .desktop-section-teamproject {
+    height: 4278px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image {
+    width: 100%;
+    height: 927px;
+    padding-top: 68px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image-girl {
+    left: 105px;
+    top: 140px;
+    width: 750px;
+    height: 744.24px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image-sun {
+    left: 699px;
+    top: 64px;
+    width: 182px;
+    height: 182px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-box {
+    width: 100%;
+    height: 3207px;
+    margin-top: 80px;
+    gap: 64px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-title-box {
+    width: 100%;
+    height: 414px;
+    padding-top: 90px;
+    gap: 28px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-main-title {
+    width: 100%;
+    font-size: 120px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-box {
+    width: 457px;
+    gap: 7px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-text {
+    font-size: 16px;
+    line-height: 21.604px;
+    letter-spacing: -0.48px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-list {
+    width: 100%;
+    height: 803px;
+    padding: 90px 80px;
+    flex-direction: column;
+    gap: 64px;
+    border-radius: 16px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-left-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    flex-direction: row;
+    gap: 36px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-num-title {
+    width: 127px;
+    font-size: 90px;
+    line-height: 108px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-text-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 15px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-title-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 46px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-project-name {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-big-caption {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-en-text {
+    font-size: 22px;
+    line-height: 26.818px;
+    letter-spacing: -0.66px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-kr-text {
+    font-size: 16px;
+    line-height: 19.504px;
+    letter-spacing: -0.48px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-caption {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.7px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-list-image-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 367px;
+    margin: 0 auto;
+  }
+
+  .desktop-section-uiux {
+    height: 4090.11px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-inner {
+    width: 100%;
+    height: 3770.11px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-title-box {
+    width: 100%;
+    height: 417px;
+    background: var(--color-black);
+    border-radius: 34px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-main-title {
+    margin: 0;
+    width: 100%;
+    font-family: var(--font-family-pp-editorial-new);
+    font-size: 120px;
+    line-height: 127px;
+    font-weight: 400;
+    color: var(--color-white);
+    text-align: center;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-box {
+    width: 457px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-title {
+    margin: 0;
+    font-family: var(--font-family-pp-editorial-new);
+    font-size: 28px;
+    line-height: 35.84px;
+    color: var(--color-white);
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-text {
+    margin: 0;
+    font-family: var(--font-family-montserrat);
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: -0.48px;
+    color: var(--color-white);
+    text-align: center;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-list-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 481.52px;
+    border-radius: 40px;
+    padding-top: 25px;
+    gap: 10px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-name-box {
+    padding: 0 24px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-img-name {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-date {
+    font-size: 14px;
+    line-height: 15.4px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-contact {
+    width: 100%;
+    max-width: none;
+    height: 1056px;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-contact .desktop-section-contact-inner {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-contact .desktop-section-contact-main-title-box {
+    width: 100%;
+    max-width: 100%;
+    height: 245px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .desktop-section-contact .desktop-section-contact-main-title {
+    padding-top: 32.5px;
+    font-size: clamp(80px, 17vw, 180px);
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+
+  .desktop-section-contact .desktop-section-contact-deco-title-box {
+    left: auto;
+    right: 0;
+    top: -130.18px;
+    width: 173px;
+    height: 100px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-deco-title-text {
+    font-size: var(--font-deco-title);
+    line-height: 60px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-text-box {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+    gap: 8px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-sub-title {
+    font-size: 52px;
+    line-height: 66.56px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-sub-text {
+    font-size: 16px;
+    line-height: 19.504px;
+    letter-spacing: -0.48px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-tel-box {
+    width: 100%;
+    max-width: 731px;
+    height: 150px;
+    margin-top: 80px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-page {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .desktop-header .desktop-header-inner {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+  }
+
+  .desktop-header .desktop-header-logo {
+    width: 180px;
+  }
+
+  .desktop-header .desktop-header-nav {
+    display: none;
+  }
+
+  .desktop-header .desktop-header-menu-button {
+    display: block;
+    position: absolute;
+    top: 4.82px;
+    right: 0;
+  }
+
+  .desktop-section-hero {
+    height: 1313px;
+    padding-top: 16px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-inner {
+    width: 100%;
+    height: 790px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-main-title-box {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 325px;
+    padding-top: 16px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-main-title {
+    font-size: 90px;
+    line-height: 103.5px;
+    letter-spacing: -6.3px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-text-box {
+    left: 0;
+    right: auto;
+    top: 357px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 96px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 24.38px;
+    letter-spacing: -0.4px;
+  }
+
+  .desktop-section-hero .desktop-section-hero-image-box {
+    left: 61px;
+    top: 484px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 696px;
+  }
+
+  .desktop-section-about {
+    height: 917px;
+  }
+
+  .desktop-section-about .desktop-section-about-inner {
+    width: 100%;
+    height: 561px;
+    padding-top: 180px;
+    gap: 28px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-title {
+    width: 432px;
+    height: 140px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-title-text {
+    font-size: 140px;
+    letter-spacing: -4.2px;
+  }
+
+  .desktop-section-about .desktop-section-about-deco-title {
+    top: -29.4px;
+    left: -16px;
+    width: 210px;
+    height: 70px;
+    padding: 20px 40px 10px;
+  }
+
+  .desktop-section-about .desktop-section-about-deco-title-text {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+  }
+
+  .desktop-section-about .desktop-section-about-airplane {
+    left: 299px;
+    top: 94px;
+  }
+
+  .desktop-section-about .desktop-section-about-main-text {
+    height: 393px;
+    gap: 64px;
+  }
+
+  .desktop-section-about .desktop-section-about-text-box {
+    height: 124px;
+  }
+
+  .desktop-section-about .desktop-section-about-sub-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+    line-height: 40.96px;
+  }
+
+  .desktop-section-about .desktop-section-about-sub-text {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-about .desktop-section-about-bottom-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 205px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .desktop-section-about .desktop-section-about-edu-title {
+    width: auto;
+    font-size: 24px;
+    line-height: 30.72px;
+    letter-spacing: -0.48px;
+    text-align: center;
+  }
+
+  .desktop-section-about .desktop-section-about-edu-list {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-about .desktop-section-about-edu-list li {
+    font-size: 18px;
+    line-height: 21.604px;
+    letter-spacing: -0.54px;
+  }
+
+  .desktop-section-skill {
+    height: 1160px;
+    padding: 140px 0;
+  }
+
+  .desktop-section-skill .desktop-section-skill-frame {
+    width: 100%;
+    height: 880px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text {
+    font-size: 45px;
+    line-height: 45px;
+    letter-spacing: -1.35px;
+    padding: 25px 50px 20px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon1 {
+    left: 626px;
+    top: 537px;
+    width: 94px;
+    height: 93px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon2 {
+    left: 47px;
+    top: 156px;
+    width: 105px;
+    height: 84px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon3 {
+    left: 58px;
+    top: 327px;
+    width: 130px;
+    height: 96px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon4 {
+    left: 596px;
+    top: 141px;
+    width: 100px;
+    height: 95px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-icon5 {
+    left: 59px;
+    top: 574px;
+    width: 101px;
+    height: 94px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-1 {
+    left: 271px;
+    top: 52px;
+    width: 226px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-2 {
+    left: 247px;
+    top: 169px;
+    width: 310px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-3 {
+    left: 208px;
+    top: 251px;
+    width: 333px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-4 {
+    left: 285px;
+    top: 382px;
+    width: 240px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-5 {
+    left: 212px;
+    top: 464px;
+    width: 324px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-6 {
+    left: 194px;
+    top: 543px;
+    width: 418px;
+    height: 90px;
+  }
+
+  .desktop-section-skill .desktop-section-skill-text-7 {
+    left: 204px;
+    top: 719px;
+    width: 363px;
+    height: 90px;
+  }
+
+  .desktop-section-project {
+    height: 545px;
+  }
+
+  .desktop-section-project .desktop-section-project-inner {
+    width: 100%;
+    height: 465px;
+    padding-top: 80px;
+    gap: 36px;
+  }
+
+  .desktop-section-project .desktop-section-project-main-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 245px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .desktop-section-project .desktop-section-project-main-title-text {
+    margin-top: 52.5px;
+    font-size: 140px;
+    letter-spacing: -4.2px;
+  }
+
+  .desktop-section-project .desktop-section-project-deco-title {
+    left: -90.5px;
+    top: -95.41px;
+    width: 256px;
+    height: 70px;
+  }
+
+  .desktop-section-project .desktop-section-project-deco-title-text {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.2px;
+  }
+
+  .desktop-section-project .desktop-section-project-text-box {
+    height: 124px;
+  }
+
+  .desktop-section-project .desktop-section-project-sub-title {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+    line-height: 40.96px;
+  }
+
+  .desktop-section-project .desktop-section-project-sub-text {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-teamproject {
+    height: 3769px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image {
+    width: 100%;
+    height: 927px;
+    padding-top: 56px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image-girl {
+    left: 60px;
+    top: 165.8px;
+    width: 600px;
+    height: 595.39px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-image-sun {
+    left: 520px;
+    top: 120px;
+    width: 176px;
+    height: 176px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-box {
+    width: 100%;
+    height: 2706px;
+    margin-top: 80px;
+    gap: 48px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-title-box {
+    width: 100%;
+    height: 334px;
+    padding-top: 60px;
+    gap: 20px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-main-title {
+    width: 100%;
+    font-size: 100px;
+    line-height: 127px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-box {
+    width: 457px;
+    gap: 6px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-sub-text {
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-list {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 700px;
+    padding: 60px 57px;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 14px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-left-box {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    flex-direction: row;
+    gap: 28px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-num-title {
+    flex-shrink: 0;
+    width: auto;
+    min-width: 0;
+    font-size: 80px;
+    line-height: 96px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-text-box {
+    flex: 1;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    gap: 14px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-title-box {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-project-name {
+    max-width: 100%;
+    font-size: 32px;
+    line-height: 41px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-big-caption {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-desc {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-en-text {
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 24.38px;
+    letter-spacing: -0.6px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-kr-text {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.42px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-small-caption {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 14.628px;
+    letter-spacing: -0.6px;
+  }
+
+  .desktop-section-teamproject .desktop-section-teamproject-list-image-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 367px;
+    margin: 0 auto;
+  }
+
+  .desktop-section-uiux {
+    height: 3867.11px;
+    padding-top: 160px;
+    padding-bottom: 120px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-inner {
+    width: 100%;
+    gap: 120px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-title-box {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 20px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-main-title {
+    width: 100%;
+    font-size: 100px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-box {
+    gap: 6px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-title {
+    font-size: 24px;
+    line-height: 30.72px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-small-sub-text {
+    font-size: 14px;
+    line-height: 15.4px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 48px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-list-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 481.52px;
+    padding-top: 25px;
+    gap: 10px;
+    margin-left: 0;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-heart-box {
+    padding-right: 24px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-name-box {
+    padding: 0 16px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-img-name {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .desktop-section-uiux .desktop-section-uiux-date {
+    font-size: 12px;
+    line-height: 13.2px;
+    letter-spacing: -0.36px;
+  }
+
+  .desktop-section-contact {
+    width: 100%;
+    max-width: 100%;
+    height: 1056px;
+    padding-top: 206px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+  }
+
+  .desktop-section-contact .desktop-section-contact-inner {
+    width: 100%;
+  }
+
+  .desktop-section-contact .desktop-section-contact-main-title-box {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 245px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .desktop-section-contact .desktop-section-contact-main-title {
+    padding-top: 52.5px;
+    font-size: 140px;
+    line-height: 140px;
+    letter-spacing: -4.2px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-deco-title-box {
+    left: 454px;
+    top: -89.75px;
+    width: 173px;
+    height: 90px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-text-box {
+    width: 100%;
+    margin-top: 80px;
+    gap: 8px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-sub-title {
+    font-size: 32px;
+    line-height: 40.96px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-sub-text {
+    font-size: 14px;
+    line-height: 17.066px;
+    letter-spacing: -0.42px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-tel-box {
+    width: 691px;
+    height: 145px;
+    margin-top: 80px;
+  }
+
+  .desktop-section-contact .desktop-section-contact-tel-text {
+    line-height: 100px;
+  }
+}

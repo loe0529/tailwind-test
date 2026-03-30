@@ -1,0 +1,87 @@
+.desktop-section-project {
+  width: 100%;
+  height: var(--height-section-project);
+}
+
+.desktop-section-project .desktop-section-project-inner {
+  width: var(--width-container-inner);
+  height: 547px;
+  margin: 0 auto;
+  padding-top: var(--padding-top-project);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-project-inner);
+}
+
+.desktop-section-project .desktop-section-project-main-title {
+  width: 1157px;
+  height: 245px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.desktop-section-project .desktop-section-project-main-title-text {
+  margin: 0;
+  font-family: var(--font-family-martian-mono);
+  font-size: var(--font-section-main-title);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -7.35px;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.desktop-section-project .desktop-section-project-deco-title {
+  position: absolute;
+  left: -90.5px;
+  top: -140px;
+  width: 403px;
+  height: 150px;
+  background: var(--color-accent-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-11deg);
+}
+
+.desktop-section-project .desktop-section-project-deco-title-text {
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-deco-title);
+  line-height: 100px;
+  font-weight: 400;
+  letter-spacing: -1.8px;
+  color: #fff5f5;
+}
+
+.desktop-section-project .desktop-section-project-text-box {
+  width: 100%;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-section-text-box);
+  align-items: center;
+}
+
+.desktop-section-project .desktop-section-project-sub-title {
+  margin: 0;
+  width: 1070px;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: var(--font-text-box-sub-title);
+  line-height: 76.8px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.desktop-section-project .desktop-section-project-sub-text {
+  margin: 0;
+  width: 400px;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-text-box-sub-text);
+  line-height: 21.942px;
+  letter-spacing: -0.54px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-black);
+}

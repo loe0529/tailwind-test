@@ -1,0 +1,218 @@
+:root {
+  /* tokens.json - responsive/Desktop */
+  --color-accent-main: #21a0aa;
+  --color-accent-sub: #f94f46;
+  --color-accent-bright: #fdcb2a;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #5d5d5d;
+
+  --font-family-montserrat: "Montserrat", sans-serif;
+  --font-family-martian-mono: "Martian Mono", monospace;
+  --font-family-pp-editorial-new: "PP Editorial New", "Times New Roman", serif;
+  --font-family-pretendard: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+
+  --width-container: 1920px;
+  --width-container-inner: 1740px;
+  --width-header: 1740px;
+  --width-header-logo: 226px;
+  --width-hero-img: 932px;
+
+  --height-header: 73.64px;
+  --height-section-hero: 1188px;
+  --height-hero-img: 984px;
+
+  --padding-vertical-header: 20px;
+  --padding-top-hero: 48px;
+  --padding-top-hero-main-title: 132px;
+  --gap-hero-inner: 369px;
+  --hero-main-title-left: 13px;
+  --hero-sub-text-right: 13px;
+
+  --font-hero-main-tiltle: 158px;
+  --font-en-text: 24px;
+
+  --padding-top-about: 320px;
+  --padding-bottom-about: 160px;
+  --gap-about-inner: 80px;
+  --gap-about-main-text: 72px;
+  --gap-section-text-box: 8px;
+  --gap-about-bottom-box: 66px;
+  --gap-about-edu-text: 10px;
+
+  --padding-horizontal-deco-title: 70px;
+  --padding-top-deco-title: 30px;
+  --padding-bottom-deco-title: 20px;
+
+  --font-section-main-title: 245px;
+  --font-deco-title: 60px;
+  --font-text-box-sub-title: 60px;
+  --font-text-box-sub-text: 18px;
+  --font-edu-title: 28px;
+  --font-edu-list-text: 22px;
+
+  --height-section-about: 1253px;
+  --height-section-skill: 1771px;
+  --height-skill-frame: 1371px;
+  --padding-vertical-skill: 200px;
+  --font-skill-text: 100px;
+  --line-height-skill-text: 100px;
+  --padding-horizontal-skill-text: 100px;
+  --padding-top-skill-text: 40px;
+  --padding-bottom-skill-text: 20px;
+  --height-section-project: 862px;
+  --padding-top-project: 315px;
+  --gap-project-inner: 80px;
+  --height-section-teamproject: 3379px;
+  --padding-top-teamproject: 80px;
+  --gap-teamproject: 80px;
+  --gap-teamproject-box: 84px;
+  --gap-teamproject-list: 250px;
+  --padding-vertical-small-title-box: 118px;
+  --gap-small-title-box: 32px;
+  --gap-small-sub-box: 8px;
+  --padding-vertical-teamproject-list: 57px;
+  --padding-horizontal-teamproject-list: 80px;
+  --gap-teamproject-left-box-text-box: 16px;
+  --font-small-main-title: 132px;
+  --font-small-sub-tilte: 30px;
+  --font-small-sub-text: 18px;
+  --font-num-title: 100px;
+  --font-project-name: 40px;
+  --font-big-caption: 18px;
+  --font-small-caption: 16px;
+  --width-small-title-box: 1440px;
+  --width-teamproject-left-box: 547px;
+  --width-teamproject-right-box: 474px;
+  --width-teamproject-left-box-text-box: 543px;
+  --width-teamproject-img-girl: 781px;
+  --width-teamproject-sun: 196px;
+  --height-section-uiux: 2925.56px;
+  --padding-top-uiux: 320px;
+  --padding-bottom-uiux: 240px;
+  --gap-uiux-inner: 310px;
+  --width-uiux-inner: 1440px;
+  --width-uiux-title: 1440px;
+  --width-uiux-box: 1440px;
+  --width-uiux-list-box: 678px;
+  --padding-vertical-list-box: 25px;
+  --padding-right-heart-box: 24px;
+  --padding-horizontal-uiux-name-box: 24px;
+  --gap-uiux-box: 64px;
+  --gap-uiux-list-box: 10px;
+  --font-uiux-img-name: 24px;
+  --font-uiux-date: 16px;
+  --width-contact: 1920px;
+  --width-contact-inner: 1740px;
+  --height-section-contact: 1056px;
+  --padding-top-contact: 140px;
+  --padding-bottom-contact: 140px;
+  --line-height-contact-tel: 100px;
+}
+
+/* Figma font usage note:
+   - Google Fonts: Montserrat, Martian Mono
+   - @font-face: Pretendard (served from CDN)
+*/
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+body {
+  font-family: var(--font-family-montserrat);
+  color: var(--color-black);
+}
+
+.desktop-page {
+  width: 100%;
+  max-width: var(--width-container);
+  min-height: 100vh;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.desktop-page .wrap {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 90px;
+  padding-right: 90px;
+  box-sizing: border-box;
+}
+
+.desktop-header {
+  width: 100%;
+  min-height: var(--height-header);
+}
+
+.desktop-header .desktop-header-inner {
+  width: var(--width-header);
+  margin: 0 auto;
+  padding: var(--padding-vertical-header) 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.desktop-header .desktop-header-logo {
+  width: var(--width-header-logo);
+  margin: 0;
+}
+
+.desktop-header .desktop-header-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.desktop-header .desktop-header-menu-button {
+  display: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.desktop-header .desktop-header-menu-button img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.desktop-header .desktop-header-nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.desktop-header .desktop-header-nav-link {
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: var(--font-family-pp-editorial-new);
+  font-size: 18px;
+  line-height: 23.04px;
+  font-weight: 200;
+  letter-spacing: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}

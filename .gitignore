@@ -13,6 +13,8 @@ dist-tailwind
 dist-ssr
 *.local
 
+.vercel
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
