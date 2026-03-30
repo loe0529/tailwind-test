@@ -1,6 +1,7 @@
-# Pages 설정: 저장소 Settings → Pages → Build and deployment → Source 를
-# 반드시 "GitHub Actions"로 선택하세요. "Deploy from a branch"이면 소스 index.html이
-# 올라가 빈 화면이 됩니다.
+# GitHub Pages: 저장소 Settings → Pages → Source 를
+# "Deploy from a branch" 로 두고
+#   Branch: gh-pages   /    Folder: / (root)
+# ⚠️ main 브랜치나 / (root)만 선택하면 소스 index.html이 올라가 빈 화면입니다.
 name: Deploy GitHub Pages
 
 on:
@@ -8,9 +9,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -18,9 +17,6 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,16 +28,14 @@ jobs:
 
       - run: npm ci
 
-      - name: Build (Vite dist for Pages)
+      - name: Build (Vite → dist, base /tailwind-test/)
         env:
           GITHUB_PAGES: 'true'
         run: npm run build
 
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
+      - name: Push dist to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: dist
-
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
