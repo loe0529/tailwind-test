@@ -1,3 +1,5 @@
+import { publicUrl } from '../utils/publicUrl'
+
 export default function Hero() {
   return (
     <section className="desktop-section-hero">
@@ -19,7 +21,7 @@ export default function Hero() {
         </div>
         <div className="desktop-section-hero-image-box">
           <img
-            src="/images/hero-img.svg"
+            src={publicUrl('images/hero-img.svg')}
             alt="Illustration of a running woman holding a paper airplane and laptop"
             className="desktop-section-hero-image"
           />

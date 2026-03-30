@@ -1,6 +1,13 @@
+import { publicUrl } from '../utils/publicUrl'
+
 export default function About() {
   return (
-    <section className="desktop-section-about">
+    <section
+      className="desktop-section-about"
+      style={{
+        '--about-check-icon-url': `url(${publicUrl('images/check-icon.svg')})`,
+      }}
+    >
       <div className="desktop-section-about-inner">
         <div className="desktop-section-about-main-title">
           <h2 className="desktop-section-about-main-title-text">ME</h2>
@@ -8,7 +15,7 @@ export default function About() {
             <span className="desktop-section-about-deco-title-text">ABOUT</span>
           </div>
           <img
-            src="/images/paper-airplane%201.svg"
+            src={publicUrl('images/paper-airplane%201.svg')}
             alt="Paper airplane icon"
             className="desktop-section-about-airplane"
           />

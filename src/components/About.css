@@ -152,5 +152,5 @@
   top: 5px;
   width: 14px;
   height: 15px;
-  background: url("/images/check-icon.svg") center / contain no-repeat;
+  background: var(--about-check-icon-url) center / contain no-repeat;
 }

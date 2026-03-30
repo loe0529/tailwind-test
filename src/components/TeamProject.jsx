@@ -1,13 +1,15 @@
+import { publicUrl } from '../utils/publicUrl'
+
 export default function TeamProject() {
   return (
     <section className="desktop-section-teamproject">
       <div className="desktop-section-teamproject-image">
         <img
-          src="/images/teamproject-img-girl.svg"
+          src={publicUrl('images/teamproject-img-girl.svg')}
           alt="Team project main visual"
           className="desktop-section-teamproject-image-girl"
         />
-        <img src="/images/team-img-sun.svg" alt="Sun icon" className="desktop-section-teamproject-image-sun" />
+        <img src={publicUrl('images/team-img-sun.svg')} alt="Sun icon" className="desktop-section-teamproject-image-sun" />
       </div>
 
       <div className="desktop-section-teamproject-box">
@@ -43,7 +45,7 @@ export default function TeamProject() {
             </div>
           </div>
           <div className="desktop-section-teamproject-list-image-box">
-            <img src="/images/teamproject-img-1.png" alt="" className="desktop-section-teamproject-list-image" />
+            <img src={publicUrl('images/teamproject-img-1.png')} alt="" className="desktop-section-teamproject-list-image" />
           </div>
         </div>
 
@@ -67,7 +69,7 @@ export default function TeamProject() {
             </div>
           </div>
           <div className="desktop-section-teamproject-list-image-box">
-            <img src="/images/teamproject-img-2.png" alt="" className="desktop-section-teamproject-list-image" />
+            <img src={publicUrl('images/teamproject-img-2.png')} alt="" className="desktop-section-teamproject-list-image" />
           </div>
         </div>
 
@@ -91,7 +93,7 @@ export default function TeamProject() {
             </div>
           </div>
           <div className="desktop-section-teamproject-list-image-box">
-            <img src="/images/teamproject-img-3.png" alt="" className="desktop-section-teamproject-list-image" />
+            <img src={publicUrl('images/teamproject-img-3.png')} alt="" className="desktop-section-teamproject-list-image" />
           </div>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { publicUrl } from '../utils/publicUrl'
+
 export default function UIUX() {
   return (
     <section className="desktop-section-uiux">
@@ -17,9 +19,9 @@ export default function UIUX() {
         <div className="desktop-section-uiux-box">
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-1.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-1.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
@@ -27,9 +29,9 @@ export default function UIUX() {
           </div>
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-2.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-2.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
@@ -37,9 +39,9 @@ export default function UIUX() {
           </div>
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-3.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-3.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
@@ -47,9 +49,9 @@ export default function UIUX() {
           </div>
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-4.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-4.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
@@ -57,9 +59,9 @@ export default function UIUX() {
           </div>
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-5.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-5.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
@@ -67,9 +69,9 @@ export default function UIUX() {
           </div>
           <div className="desktop-section-uiux-list-box">
             <div className="desktop-section-uiux-heart-box">
-              <img src="/images/heart.svg" alt="" />
+              <img src={publicUrl('images/heart.svg')} alt="" />
             </div>
-            <img src="/images/uiux-img-6.png" alt="" className="desktop-section-uiux-image" />
+            <img src={publicUrl('images/uiux-img-6.png')} alt="" className="desktop-section-uiux-image" />
             <div className="desktop-section-uiux-name-box">
               <p className="desktop-section-uiux-img-name">Tamburins Cosmetic</p>
               <p className="desktop-section-uiux-date">2025.08</p>
